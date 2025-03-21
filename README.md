@@ -1,7 +1,5 @@
-# ntlm-cracking-scripts-output-files
-attemps to crack all hashes from secrets dump output, dispalys which users have their corresponding cracked passwords and which dont
-
+extracts all hashes from  secrets dump/sam dump into a file for easy hash cracking.
 Steps:
-1) secrets dump into file called secretsdump_output.txt
-2) run Crack.py
+1) secrets dump into a file 
+2) run extractHashes.py <filename>
    
