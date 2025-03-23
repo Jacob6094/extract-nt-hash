@@ -1,4 +1,14 @@
-extracts all hashes from  secrets dump/sam dump into a file for easy hash cracking.
+extractHashes.py
+ * Extracts all nt hashes from secrets dump use
 Steps:
 1) secrets dump into a file 
-2) run extractHashes.py [secretsdumpfile]  
+2) extractHashes.py [secretsdumpfile]  
+
+
+secrets2crack.py
+* Extracts all nt hashes and pipes into hashcat
+Steps:
+1) secrets dump into a file
+2) extractHashes.py [secretsdumpfile] [wordlist]
+
+  
